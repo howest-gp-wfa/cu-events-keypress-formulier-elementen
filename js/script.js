@@ -58,13 +58,8 @@ const ShowScroll = (e) => {
   divFeedback.innerHTML = feedback;
 }
 
+//Getriggerd via pijltjes aan de input en nadat de focus verloren is.
 const ShowChange = (e) => {
-  let feedback = `MouseMove op Plaats: X: ${e.screenX} - Y: ${e.screenY} <br/>`;
+  let feedback = `Change op: X: ${e.target.id} - Nieuwe waarde: ${e.target.value} <br/>`;
   divFeedback.innerHTML += feedback;
 }
-
-
-
-
-
-
