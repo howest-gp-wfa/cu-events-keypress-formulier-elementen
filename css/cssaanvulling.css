@@ -1,0 +1,20 @@
+
+#divMoveZone {
+  margin-top: 15px;
+  width: 200px;
+  height: 100px;
+  padding : 50px;
+  background-color : green;
+
+  border : 2px solid black;
+}
+
+#divScrollable {
+  margin-top: 10px;
+  width: 100px;
+  height: 500px;
+  overflow: scroll;
+  background-color : yellowgreen;
+  border : 2px solid black;
+}
+
